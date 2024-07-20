@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const password = document.getElementById('password').value;
         const error = document.getElementById('error');
 
-        const correctMatNumber = 'qwerty'; // Replace with your predefined matriculation number
-        const correctPassword = '1234567890'; // Replace with your predefined password
+        const correctMatNumber = 'Uj-2018-ev-0512'; // Replace with your predefined matriculation number
+        const correctPassword = '2018ev0512'; // Replace with your predefined password
 
         if (matNumber === correctMatNumber && password === correctPassword) {
             window.location.href = '/pages/Dashboard/dashboard.html'; // Replace with your next page URL
